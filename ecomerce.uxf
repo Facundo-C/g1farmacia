@@ -1,0 +1,98 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>8</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>112</x><y>176</y><w>136</w><h>88</h></coordinates><panel_attributes>Usuario
+--
+-id: Long
+-name: String
+-email: String
+--
++Getters
++Setters
+
+bg=white
+group=group-2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>496</x><y>280</y><w>136</w><h>128</h></coordinates><panel_attributes>Articulo
+--
+-id: Long
+-name: String
+-categorias: List&lt;categoria&gt;
+-marcas: List&lt;marca&gt;
+-stock: int
+-precio: float
+--
++Getters
++Setters
+
+bg=white
+
+group=group-2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>496</x><y>440</y><w>136</w><h>80</h></coordinates><panel_attributes>Categoria
+--
+-id: Long
+-name: String
+--
++Getters
++Setters
+
+bg=white
+group=group-2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>112</x><y>56</y><w>136</w><h>88</h></coordinates><panel_attributes>Admin 
+--
+-id: Long
+-name: String
+-email: String
+--
++Getters
++Setters
+
+bg=white
+
+group=group-2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>112</x><y>296</y><w>136</w><h>128</h></coordinates><panel_attributes>Cliente
+--
+-id: Long
+-name: String
+-email: String
+-direccion: String
+-favoritos: List&lt;Articulo&gt;
+-pedidos: List&lt;Pedido&gt;
+--
++Getters
++Setters
+
+bg=white
+group=group-2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>304</x><y>296</y><w>136</w><h>104</h></coordinates><panel_attributes>Carrito
+--
+-id: Long
+-articulos: List&lt;Articulo&gt;
+-precio: float
+--
++Getters
++Setters
++Comprar
+
+bg=white
+group=group-2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>432</x><y>344</y><w>80</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+group=group-2</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>344</y><w>80</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+group=group-2</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>552</x><y>400</y><w>24</w><h>56</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;&gt;
+group=group-2</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>176</x><y>256</y><w>24</w><h>56</h></coordinates><panel_attributes>lt=&lt;&lt;-
+group=group-2</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>176</x><y>136</y><w>24</w><h>56</h></coordinates><panel_attributes>lt=-&gt;&gt;
+group=group-2</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>496</x><y>168</y><w>136</w><h>80</h></coordinates><panel_attributes>Marca
+--
+-id: Long
+-name: String
+--
++Getters
++Setters
+
+bg=white
+group=group-2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>552</x><y>240</y><w>24</w><h>56</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+group=group-2</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>112</x><y>456</y><w>136</w><h>88</h></coordinates><panel_attributes>Pedido
+--
+-id: Long
+-articulos: List&lt;Articulo&gt;
+-precio: float
+--
++Getters
++Setters
+
+bg=white
+group=group-2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>176</x><y>416</y><w>24</w><h>56</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+group=group-2</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>56</x><y>32</y><w>608</w><h>536</h></coordinates><panel_attributes>Diagrama de clases
+bg=white
+layer=-1
+group=group-2</panel_attributes><additional_attributes></additional_attributes></element></diagram>
