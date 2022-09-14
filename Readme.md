@@ -86,7 +86,7 @@ FarmaCenter es un distribuidor de fármacos de la provincia de Mendoza. Luego de
 	LinkedIn: https://www.linkedin.com/in/matias-cantarutti-a986b6238/
 
 
-### **[Valentino Escanes]()** 🔎
+### **[Valentino Escanes](https://github.com/ValentinoEscanes)** 🔎
 *(FrontEnd - Full Stack Developer)*
 
 	Edad: 21
@@ -98,7 +98,6 @@ FarmaCenter es un distribuidor de fármacos de la provincia de Mendoza. Luego de
 	• Formación como QA en labsxd
 
 	Linkedin: https://www.linkedin.com/in/valentino-escanes-776377220/
-	GitHub: https://github.com/ValentinoEscanes
 
 <br/>
 
