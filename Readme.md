@@ -6,21 +6,23 @@ FarmaCenter es un distribuidor de fármacos de la provincia de Mendoza. Luego de
 ### **Objetivos del Negocio** 📈
 	
 	• Mostrar el catálogo de productos y los diferentes locales disponibles vía web
-    • Vender productos a distancia
-    • Permitir retiros en el local con factura o código QR de la compra para ahorrar tiempo
-    • Realizar envíos de los productos al domicilio de clientes
-    • Permitir a los clientes auto medicarse utilizando un sistema de recomendación por síntomas para medicamentos sin prescripción 
+	• Vender productos a distancia
+	• Permitir retiros en el local con factura o código QR de la compra para ahorrar tiempo
+	• Realizar envíos de los productos al domicilio de clientes
+	• Permitir a los clientes auto medicarse utilizando un sistema de recomendación por síntomas para medicamentos sin prescripción 
 
 ### **Publico Objetivo** 📊
+
 	• Demografía a apuntar: adultos y jóvenes de la provincia de Mendoza
-    • Detonante del público: falta de tiempo o problemas de movilidad para acercarse a un local
-    • Tipo de ventas: al por menor 
+	• Detonante del público: falta de tiempo o problemas de movilidad para acercarse a un local
+	• Tipo de ventas: al por menor 
 
 ### **Necesidades del Cliente** 📋
+
 	• Interfaz responsiva, minimalista y fácil de entender
-    • Capacidad de aceptar diferentes medios de pagos
-    • Facilidad a la hora de cambiar los precios
-    • Tener el proyecto terminado antes del 01/12/2022 
+	• Capacidad de aceptar diferentes medios de pagos
+	• Facilidad a la hora de cambiar los precios
+	• Tener el proyecto terminado antes del 01/12/2022 
 
 <br/>
 
@@ -87,16 +89,16 @@ FarmaCenter es un distribuidor de fármacos de la provincia de Mendoza. Luego de
 ### **[Valentino Escanes]()** 🔎
 *(FrontEnd - Full Stack Developer)*
 
-	Edad: 22
-	Idiomas: Español (Nativo) - Inglés (Intermedio)
-	Lenguajes: Python - Java - JavaScript - Apex
-
-	Descripción:
-	• Trabajo en labsxd como salesforce developer
-	• Conocimiento en desarrollo web, ciencia de datos, deep machine y machine learning
-	• Experiencia como líder proyectos y trabajo en equipo
+	Edad: 21
+	Idiomas: Español(Nativo)
+	Lenguajes: Java - JavaScript
 	
-	linkedin: https://www.linkedin.com/in/leonardo-cabrera-dev/
+	Descripción: 
+	• Estudiante en desarrollo de software
+	• Formación como QA en labsxd
+
+	Linkedin: https://www.linkedin.com/in/valentino-escanes-776377220/
+	GitHub: https://github.com/ValentinoEscanes
 
 <br/>
 
