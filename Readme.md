@@ -108,7 +108,7 @@ FarmaCenter es un distribuidor de fármacos de la provincia de Mendoza. Luego de
 - [Section](https://wireframe.cc/8sxCuJ)
 - [Sitomas](https://wireframe.cc/8sxCuJ)
 - [Register](https://wireframe.cc/8sxCuJ)
-- [Logging](https://wireframe.cc/8sxCuJ)
+- [Logging](https://wireframe.cc/5mloRU)
 
 <br/>
 
