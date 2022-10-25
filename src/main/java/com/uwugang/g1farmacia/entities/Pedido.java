@@ -1,12 +1,12 @@
-package com.uwugang.g1farmacia.entity;
+package com.uwugang.g1farmacia.entities;
+
+import java.util.List;
 
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
@@ -15,20 +15,19 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table
+@Table(name = "pedido")
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Marca {
+public class Pedido {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	
-	private String name;
+	private Float precio;
 	
-	@ManyToOne(fetch = FetchType.EAGER)
-	@JoinColumn(name = "fk_articulo", nullable = false)
-	private Articulo articulo; 
+	@OneToMany(mappedBy = "pedido")
+	private List<Articulo> articulo;
 }

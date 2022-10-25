@@ -1,6 +1,4 @@
-package com.uwugang.g1farmacia.entity;
-
-import java.util.List;
+package com.uwugang.g1farmacia.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -15,19 +13,19 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table
+@Table(name = "marca")
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Pedido {
+public class Marca {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	
-	private float precio;
+	private String name;
 	
-	@OneToMany(mappedBy = "pedido")
-	private List<Articulo> articulos;
+	@OneToMany(mappedBy = "marca")
+	private Articulo articulo; 
 }

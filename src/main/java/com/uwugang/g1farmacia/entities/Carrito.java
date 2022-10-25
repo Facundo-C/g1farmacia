@@ -1,4 +1,4 @@
-package com.uwugang.g1farmacia.entity;
+package com.uwugang.g1farmacia.entities;
 
 import java.util.List;
 
@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table
+@Table(name = "carrito")
 @Getter
 @Setter
 @AllArgsConstructor
@@ -29,5 +29,5 @@ public class Carrito {
 	private Float precio;
 	
 	@OneToMany(mappedBy = "carrito")
-	private List<Articulo> articulos;
+	private List<Articulo> articulo;
 }
