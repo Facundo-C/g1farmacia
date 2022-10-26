@@ -8,8 +8,6 @@ public class G1farmaciaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(G1farmaciaApplication.class, args);
-		
-		
 	}
 
 }
